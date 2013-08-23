@@ -17,6 +17,9 @@ def anyto10(str, any=16):
         lstr -= 1
     return ret
 
+#获取窗体进程号
+def getWindowPid(hwnd):
+    pass
 
 #内存操作
 def readMemoryIntType(pid, lpBaseAddress):

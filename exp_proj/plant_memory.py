@@ -8,7 +8,7 @@ import win32process as p
 
 hwnd = gui.FindWindowEx(None, None, "MainWindow", "ֲ植物大战僵尸中文版")
 
-pid = gui.getWindowPid(hwnd)
+pid = my.getWindowPid(hwnd)
 
 print ("当前阳光数:", my.readGameIntType(pid, '6a9ec0', '768', '5560'))
 
